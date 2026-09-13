@@ -41,7 +41,7 @@ Hoặc gọi trực tiếp:
 
 ```powershell
 pip install pyinstaller
-pyinstaller --noconsole --onefile --name BatteryTray `
+python -m PyInstaller --noconsole --onefile --name BatteryTray `
     --hidden-import PIL._tkinter_finder `
     --collect-submodules pystray `
     --collect-submodules PIL `
